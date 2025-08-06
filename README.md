@@ -1,1 +1,2 @@
-# Whale-Game made using html css and javascript
+# Whale-Game
+ made using html css and javascript
