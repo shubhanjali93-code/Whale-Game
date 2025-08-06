@@ -1,5 +1,6 @@
 # Whale-Blaster
-🔗 **Play Now:** [Whale Blaster on GitHub Pages](https://shubhanjali.github.io/whale-blaster/)
+🔗 **Play Now:** [Whale Blaster on GitHub Pages] https://shubhanjali93-code.github.io/Whale-Game/
+
 Whale Blaster is built on a modular, state-driven architecture using HTML5 Canvas and vanilla JavaScript. The game loop is powered by requestAnimationFrame, ensuring smooth rendering and consistent frame updates.
 
 🧩 Objective
