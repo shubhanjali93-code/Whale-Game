@@ -567,11 +567,14 @@ window.addEventListener('load', function(){
         game.update(deltaTime);
         requestAnimationFrame(animate);
     }
+    ctx.fillStyle = 'lime';
+ctx.fillRect(50, 50, 100, 100);
     animate(0);
     document.getElementById('resetBtn').addEventListener('click', () => {
     location.reload();
 });
 });
+
 
 
 
