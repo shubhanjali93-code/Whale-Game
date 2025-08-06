@@ -4,8 +4,8 @@ window.addEventListener('load', function(){
    /* const testImage = document.getElementById('layer1');
     ctx.drawImage(testImage, 0, 0); */
     const dpr = window.devicePixelRatio || 1;
-    canvas.width = 1600 * dpr;
-    canvas.height = 600 * dpr;
+    canvas.width = 800
+    canvas.height = 600;
     canvas.style.width = '1600px';
     canvas.style.height = '600px';
     ctx.scale(dpr, dpr);
@@ -571,3 +571,4 @@ window.addEventListener('load', function(){
     location.reload();
 });
 });
+
