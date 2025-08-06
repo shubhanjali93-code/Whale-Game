@@ -1,3 +1,20 @@
+window.addEventListener('load', function () {
+  const canvas = document.getElementById('canvas1');
+  const ctx = canvas.getContext('2d');
+  canvas.width = 800;
+  canvas.height = 600;
+
+  const playerImage = document.getElementById('player');
+
+  if (playerImage.complete) {
+    ctx.drawImage(playerImage, 100, 100, 100, 100);
+  } else {
+    playerImage.onload = () => {
+      ctx.drawImage(playerImage, 100, 100, 100, 100);
+    };
+  }
+});
+
 window.addEventListener('load', function(){
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
@@ -571,4 +588,5 @@ window.addEventListener('load', function(){
     location.reload();
 });
 });
+
 
