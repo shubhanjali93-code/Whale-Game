@@ -1,6 +1,12 @@
 # Whale-Blaster
 Whale Blaster is built on a modular, state-driven architecture using HTML5 Canvas and vanilla JavaScript. The game loop is powered by requestAnimationFrame, ensuring smooth rendering and consistent frame updates.
 
+🧩 Objective
+- Survive as long as possible while shooting down enemies.
+- Collect Lucky Fish to gain extra ammo and activate dual-shot mode.
+- Avoid collisions with hostile creatures like Angler Fish and Hive Whales.
+- Watch out for swarms of Drones—they’re fast and unpredictable!
+
 Core Concepts:
  .Game Loop & Delta Time
  .The loop calculates deltaTime to normalize movement and animation speed across devices.
