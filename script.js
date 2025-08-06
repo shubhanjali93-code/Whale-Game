@@ -567,4 +567,7 @@ window.addEventListener('load', function(){
         requestAnimationFrame(animate);
     }
     animate(0);
+    document.getElementById('resetBtn').addEventListener('click', () => {
+    location.reload();
+});
 });
