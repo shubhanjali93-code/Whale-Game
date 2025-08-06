@@ -9,8 +9,8 @@ Whale Blaster is built on a modular, state-driven architecture using HTML5 Canva
 
 Core Concepts:
 - Game Loop & Delta Time
-- The loop calculates deltaTime to normalize movement and animation speed across devices.
-- All entities (player, enemies, particles) update and draw within this loop.
+  - The loop calculates deltaTime to normalize movement and animation speed across devices.
+  - All entities (player, enemies, particles) update and draw within this loop.
 - State-Driven Entities
   - Each enemy and player object maintains its own state (sitting, running, jumping, dying, etc.).
   - Transitions are triggered by collisions, timers, or user input.
